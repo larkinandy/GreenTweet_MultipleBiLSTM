@@ -35,6 +35,9 @@ Data were stored in a mySQL database. Primary key consisted of a unique incremen
 ### Scripts ###
 Scripts were written in python and use the tweepy pacakge.
 
+**TODO:**
+- [ ] add script names and brief description.
+
 ### External links ###
 - **Previous study github repository** - https://github.com/larkinandy/Portland_UrbanNature_Twitter
 - **Tweepy** - http://www.tweepy.org/
