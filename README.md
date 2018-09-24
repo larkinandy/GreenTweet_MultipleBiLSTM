@@ -1,9 +1,9 @@
 # GreenTweet_MultivariateBiLSTM
 twitter text preprocessing and bidirectional lstm for multivariate categorization
 
-**Author: ** Andrew Larkin
-**Affiliation:** Oregon State University, College of Public Health and Human Sciences
-**Date Created:** September 23rd, 2018
+**Author:** Andrew Larkin <br>
+**Affiliation:** Oregon State University, College of Public Health and Human Sciences <br>
+**Date Created:** September 23rd, 2018 <br>
 
 **Summary** <br>
 The purpose of this project is to download text from twitter posts related to urban nature, or "greenspace", preprocess the text for developing classifiers, create a multivariate classifier for greenspace related pathways of action, and evaluate model performance.  Github contents are partitioned into the following folders:
