@@ -1,8 +1,8 @@
 # GreenTweet_MultivariateBiLSTM
 twitter text preprocessing and bidirectional lstm for multivariate categorization
 
-**Author:** Andrew Larkin <br>
-**Affiliation:** Oregon State University, College of Public Health and Human Sciences <br>
+**Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
+**Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
 **Date Created:** September 23rd, 2018 <br>
 
 **Summary** <br>
