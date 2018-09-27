@@ -35,8 +35,7 @@ Data were stored in a mySQL database. Primary key consisted of a unique incremen
 ### Scripts ###
 Scripts were written in python and use the tweepy pacakge.
 
-**TODO:**
-- [ ] add script names and brief description.
+[**SearchDataGreen.py**](https://github.com/larkinandy/MPH-Culminating-Experience/blob/master/SearchDataGreen.py) - script used to download tweets and store in SQL database.
 
 ### External links ###
 - **Previous study github repository** - https://github.com/larkinandy/Portland_UrbanNature_Twitter
