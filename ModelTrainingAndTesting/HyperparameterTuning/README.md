@@ -12,6 +12,7 @@ text and metadata collection from twitter
 Hyperparameter tuning methodology and results are described here.  This secction if comprised of two documents:
 
 **Readme.md** - describes the tuning methodology, including hyperparameters to tune, range of hyperparameter values, evaluation metrics, and selection strategy <br>
+**HParramTuning.py** - Notebook with tf code to tune hyperparams and records results <br>
 **HParamTuning.xls** - Excel tables with select tables and graphs from hyperparamter tuning
 
 
