@@ -29,19 +29,15 @@ text and metadata collection from twitter
 **Date Created:** September 26th, 2018 <br>
 
 **TODO:** <br>
-[ ] add link to Stanford word vector model <br>
 [ ] add link to related repository <br>
 [ ] add link to POS paper once it's available online <br>
-[x] add select descriptive statistics table <br>
-[ ] add pipeline diagram and brief explanation <br>
-[x] fix link to xls file <br>
 
 **Summary**
 Data Preprocessing for the bi-LSTM requires several NLP modifications that weren't required for the previous analysis based on Part of Speech tagging (insert link to repository).  Most notably:
-- A mapping dictionary needs to be made to transform tweet text into word vectors <br>
-- Unknown and padding tags need to be added to sentences <br>
+- a mapping dictionary needs to be made to transform tweet text into word vectors <br>
+- unknown and padding tags need to be added to sentences <br>
 - sentence length prior to adding padding needs to be determined <br>
-- compatected words need to be partitioned into multiple words (e.g. #lastchildinthewoods) <br>
+- ompatected words need to be partitioned into multiple words (e.g. #lastchildinthewoods) <br>
 - indicators need to be made to indicate which words in the text belong to hashtags and emoji descriptions <br>
 - inclusion criteria need to be applied to limit bayes optimal error arising from ambiguous text <br>
 - the dataset needs to be partitioned into train, dev, and test sets <br>
@@ -53,7 +49,7 @@ The Data Preprocessing section contains three documents:
 3) **Readme.md** - this file, documenting the precprocess workflow and results
 
 **External Links** <br>
-insert link to stanford word vector model here <br>
+Stanford Word Vectors - https://nlp.stanford.edu/projects/glove/ <br>
 
 
 ![alt text](https://raw.githubusercontent.com/larkinandy/GreenTweet_MultivariateBiLSTM/master/DataPreprocessing/images/preProcessingWorkflow.png)
