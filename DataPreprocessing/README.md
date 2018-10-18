@@ -1,6 +1,29 @@
 # GreenTweet_MultivariateBiLSTM: Data Preprocessing
 text and metadata collection from twitter
 
+
+
+
+ **Dataset** | Train | Dev | Test |All | Train | Dev | Test | All 
+ ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------ | ------------- | ------------ 
+**Nature Label** |1|1|1|1|0|0|0|0|
+**Sample Size** | 36654 | 2897 | 2981 | 42532 | 26309 | 2103 | 2019 | 30341 
+**Label Frequency (%)** |  --------- | --------- | --------- | --------- | --------- | -------- | --------- | -------- 
+Safety | 6.96 | 6.97 | 5.77 | 6.87 | 2.35 | 2.43 | 2.23 |2.34 |
+Beauty | 6.35 | 6.80 | 5.90 | 6.35 | 0.94 | 1.14 | 1.19 | 0.97 |
+Social | 13.04 | 13.32 | 13.45 | 13.08 | 5.23 | 4.52 | 5.05 | 5.18 |
+Stress | 1.38 | 1.50 | 1.17 | 1.37 | 0.35 | 0.43 | 0.50 | 0.36 |
+Air | 1.06 | 1.04 | 1.24 | 1.07 | 0.20 | 0.38 | 0.01 | 0.20 |
+**Emoticon Frequency (%)** | 10.02 | 10.25 | 11.64 | 10.15 | 5.93 | 6.09 | 6.29 | 5.96 |
+**Hashtag Frequency (%)** | 23.92 | 24.17 | 24.89 | 24.01 | 18.12 | 18.69 | 16.94 | 18.08 |
+**Mean Sentence Length (words)** | 18.42 | 18.63 | 18.78 | 18.46 | 19.65 | 19.84 | 19.47 | 19.65 |
+
+**Table 1.  Select Descriptive Statistics from the Train, Test, and Dev Datasets Created from the Data Preprocessing Script, Stratified by Nature Class (1 = positive, 0 = negative)**. <br> <br> <br>
+
+
+
+
+
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
 **Date Created:** September 26th, 2018 <br>
@@ -22,7 +45,7 @@ Data Preprocessing for the bi-LSTM requires several NLP modifications that weren
 - indicators need to be made to indicate which words in the text belong to hashtags and emoji descriptions <br>
 - inclusion criteria need to be applied to limit bayes optimal error arising from ambiguous text <br>
 - the dataset needs to be partitioned into train, dev, and test sets <br>
-- descriptive statistics need to be run to compare train, dev, and test set compatibility <br>
+- descriptive statistics need to be run to compare train, dev, and test set compatibility <br>|
 
 The Data Preprocessing section contains three documents:
 1) [**DatasetDescriptiveStats.xlsx**](./DatasetDescriptiveStats.xlsx) - Table with descriptive statistics for train, test, and dev datasets
