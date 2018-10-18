@@ -32,7 +32,7 @@ text and metadata collection from twitter
 [ ] add link to related repository <br>
 [ ] add link to POS paper once it's available online <br>
 
-**Summary**
+**Summary** <br>
 Data Preprocessing for the bi-LSTM requires several NLP modifications that weren't required for the previous analysis based on Part of Speech tagging (insert link to repository).  Most notably:
 - a mapping dictionary needs to be made to transform tweet text into word vectors <br>
 - unknown and padding tags need to be added to sentences <br>
