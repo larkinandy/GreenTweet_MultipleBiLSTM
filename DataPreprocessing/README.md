@@ -29,11 +29,10 @@ text and metadata collection from twitter
 **Date Created:** September 26th, 2018 <br>
 
 **TODO:** <br>
-[ ] add link to related repository <br>
 [ ] add link to POS paper once it's available online <br>
 
 **Summary** <br>
-Data Preprocessing for the bi-LSTM requires several NLP modifications that weren't required for the previous analysis based on Part of Speech tagging (insert link to repository).  Most notably:
+Data Preprocessing for the bi-LSTM requires several NLP modifications that weren't required for the [previous Twitter analysis based on Part of Speech tagging](https://github.com/larkinandy/Portland_UrbanNature_Twitter).  Most notably:
 - a mapping dictionary needs to be made to transform tweet text into word vectors <br>
 - unknown and padding tags need to be added to sentences <br>
 - sentence length prior to adding padding needs to be determined <br>
@@ -50,6 +49,7 @@ The Data Preprocessing section contains three documents:
 
 **External Links** <br>
 Stanford Word Vectors - https://nlp.stanford.edu/projects/glove/ <br>
+
 
 
 ![alt text](https://raw.githubusercontent.com/larkinandy/GreenTweet_MultivariateBiLSTM/master/DataPreprocessing/images/preProcessingWorkflow.png)
