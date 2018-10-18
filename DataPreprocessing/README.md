@@ -48,7 +48,7 @@ The Data Preprocessing section contains three documents:
 3) **Readme.md** - this file, documenting the precprocess workflow and results
 
 **External Links** <br>
-Stanford Word Vectors - https://nlp.stanford.edu/projects/glove/ <br>
+**Stanford Word Vectors** - https://nlp.stanford.edu/projects/glove/ <br>
 
 
 
