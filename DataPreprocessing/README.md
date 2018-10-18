@@ -25,7 +25,7 @@ Data Preprocessing for the bi-LSTM requires several NLP modifications that weren
 - descriptive statistics need to be run to compare train, dev, and test set compatibility <br>
 
 The Data Preprocessing section contains three documents:
-1) [**DatasetDescriptiveStats.xls**](./DatasetDescriptiveStats.xls) - Table with descriptive statistics for train, test, and dev datasets
+1) [**DatasetDescriptiveStats.xlsx*](./DatasetDescriptiveStats.xlsx) - Table with descriptive statistics for train, test, and dev datasets
 2) [**PreprocessTweets.ipynb**](./PreprocessTweets.ipynb) - Jupyter notebook containing python script for performing all of the operations described above <br>
 3) **Readme.md** - this file, documenting the precprocess workflow and results
 
