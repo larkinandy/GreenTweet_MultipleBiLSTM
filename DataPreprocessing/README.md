@@ -9,9 +9,9 @@ text and metadata collection from twitter
 [ ] add link to Stanford word vector model <br>
 [ ] add link to related repository <br>
 [ ] add link to POS paper once it's available online <br>
-[ ] add select descriptive statistics table <br>
+[x] add select descriptive statistics table <br>
 [ ] add pipeline diagram and brief explanation <br>
-[ ] fix link to xls file <br>
+[x] fix link to xls file <br>
 
 **Summary**
 Data Preprocessing for the bi-LSTM requires several NLP modifications that weren't required for the previous analysis based on Part of Speech tagging (insert link to repository).  Most notably:
