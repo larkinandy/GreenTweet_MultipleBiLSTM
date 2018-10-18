@@ -55,3 +55,7 @@ The Data Preprocessing section contains three documents:
 **External Links** <br>
 insert link to stanford word vector model here <br>
 
+
+![alt text](https://raw.githubusercontent.com/larkinandy/GreenTweet_MultivariateBiLSTM/master/DataPreprocessing/images/preProcessingWorkflow.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Figure 1.  Workflow Diagram for Data Preprocessing.** <br>
