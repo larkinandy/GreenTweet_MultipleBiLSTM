@@ -26,7 +26,7 @@ Symbol | Description | Tuning? | Test Value Set |
 ------------ | ------------- | ------------- | ------------- 
 α | learning rate | Yes | {1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.05, 0.1}* |
 τ |  # hidden layers** | Yes | {1,2,3} |
-ι | # hidden nodes / layer** | Yes | {7, 12, 24, 48, 96} | 
+ι | # hidden nodes / layer** | Yes | {7, 16, 32, 64, 128} | 
 m | minibatch size | Yes | {64, 128, 256, 512} | 
 λ | L2 regularization parameter*** | Yes | {1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.05, 0.1, 0.5}* |
 g | activation function**** | Yes | {tanh, relu, leaky relu } |
