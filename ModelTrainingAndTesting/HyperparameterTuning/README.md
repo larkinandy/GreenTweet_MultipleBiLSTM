@@ -42,4 +42,21 @@ v | # biLSTMs | No | # words in longest Tweet + 1 |
 
 ### Evaluation Metrics ###
 Two evaluation metrics were used to tune hyperparameters:
-- ** Cost function J ** - the unweighted arithmetic mean cost function for all c outcomes in a given candidate model
+1) **Cost function J** - the unweighted arithmetic mean cost function for all c outcomes in a given candidate model
+
+
+<a href="url"><img src="../images/CostFxnEquations.png" height="250" width="400" ></a> <br>
+<br>
+<br>
+
+2) **Mathews Correlation Coefficient** - Correlation between label and predictions.  Values range from -1 (prediction is exact opposite of label) to 1 (prediction perfectly matches label), and a value of 0 is equivalent to random guessing.
+
+
+
+<a href="url"><img src="../images/MCCEquations.png" height="400" width="500" ></a> <br>
+<br>
+<br>
+
+### External Links ###
+**https://en.wikipedia.org/wiki/Loss_function** <br>
+**https://en.wikipedia.org/wiki/Matthews_correlation_coefficient**
