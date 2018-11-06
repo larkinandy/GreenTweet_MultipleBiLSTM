@@ -9,11 +9,14 @@ text and metadata collection from twitter
 [ ] insert link to manuscript once published
 
 ### Summary ###
-Hyperparameter tuning methodology and results are described here.  This secction if comprised of two documents:
+Hyperparameter tuning methodology and results are described here.  This secction if comprised of the following documents:
 
 **Readme.md** - describes the tuning methodology, including hyperparameters to tune, range of hyperparameter values, evaluation metrics, and selection strategy <br>
 **HParramTuning.py** - Notebook with tf code to tune hyperparams and records results <br>
-**HParamTuning.xls** - Excel tables with select tables and graphs from hyperparamter tuning
+**TuningGraphs.py** - Notebook for calculating summary statistics and creating multiplot graphs for each parameter to tune <br>
+**HParamX.eps** - Performance graphs, where X designates the corresponding performance parameter (e.g. HParamLearningRate.eps) <br>
+**HParamTuning.xls** - Excel tables with select tables from hyperparamter tuning <br>
+
 
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
@@ -25,11 +28,12 @@ Model hyperparameters are shown below in Table 1.  For tunable hyperparameters, 
 Symbol | Description | Tuning? | Test Value Set | 
 ------------ | ------------- | ------------- | ------------- 
 α | learning rate | Yes | {1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.05, 0.1}* |
-τ |  # hidden layers** | Yes | {1,2,3} |
-ι | # hidden nodes / layer** | Yes | {7, 16, 32, 64, 128} | 
+τ |  # hidden post-LSTM layers** | Yes | {1,2,3} |
+ι | # hidden nodes per post-LSTM layers** | Yes | {7, 16, 32, 64, 128} | 
+h | # hidden nodes in pre-sigmoid layer | Yes | {7, 14, 16, 32 } |
 m | minibatch size | Yes | {64, 128, 256, 512} | 
-e | # epochs | Yes | {1000,5000,10000,25000, 50000, 100000, 250000} |
-λ | L2 regularization parameter*** | Yes | {1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.05, 0.1, 0.5}* |
+e | # epochs | Yes | {10000,25000, 50000, 100000, 120000, 250000} |
+λ | dropout rate*** | Yes | {0, 0.1, 0.2, 0.3, 0.4, 0.5}* |
 g | activation function**** | Yes | {tanh, relu, leaky relu } |
 c | # outcomes | Yes | {1,2,3,4,5,6,7} |
 β1 | momentum term of ADAM optimizer | No | 0.9 |
@@ -38,7 +42,7 @@ c | # outcomes | Yes | {1,2,3,4,5,6,7} |
 v | # biLSTMs | No | # words in longest Tweet + 1 |
 
 
-**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units.  *** Number of λ parameters to tune is dependent on τ. **** For hidden units only. Sigmoid is the activation function for all output units 
+**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units.  *** Can differ between LSTM and post-LSTM layers. **** For hidden units only. Sigmoid is the activation function for all output units 
 
 ### Evaluation Metrics ###
 Two evaluation metrics were used to tune hyperparameters:
