@@ -33,7 +33,7 @@ Symbol | Description | Tuning? | Test Value Set |
 h | # hidden nodes in pre-sigmoid layer | Yes | {7, 14, 16, 32 } |
 m | minibatch size | Yes | {64, 128, 256, 512} | 
 e | # epochs | Yes | {10000,25000, 50000, 100000, 120000, 250000} |
-λ | dropout rate*** | Yes | {0, 0.1, 0.2, 0.3, 0.4, 0.5}* |
+λ | dropout rate*** | Yes | {0.3, 0.4, 0.5, 0.6, 0.7}* |
 g | activation function**** | Yes | {tanh, relu, leaky relu } |
 c | # outcomes | Yes | {1,2,3,4,5,6,7} |
 β1 | momentum term of ADAM optimizer | No | 0.9 |
