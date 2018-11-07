@@ -44,6 +44,27 @@ v | # biLSTMs | No | # words in longest Tweet + 1 |
 
 **Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units.  *** Can differ between LSTM and post-LSTM layers. **** For hidden units only. Sigmoid is the activation function for all output units 
 
+### HParramTuning Pseudocode ###
+Workflow of the script HParramTuning.py is as follows:
+
+1. Load train and dev sets into memory
+2. Define the model structure <br>
+  a. Create embeddings <br>
+  b. Create LSTMS <br>
+  c. Create post-LSTM hidden layers <br>
+  d. Create pre-softmax hidden layer <br>
+  e. Create softmax layer <br>
+  f. Define cost function <br>
+3. Run training model <br>
+  a. Create session <br>
+  b. For each epoch<br>
+    1. Perform forward and backward propagation <br>
+    2. If epoch % 500 = 0: <br>
+      a. calculate TP, FP, TN, and FN <br>
+      b. calculate precision, recall, F1 Score, cost, and MCC <br>
+4. Save performance metrics to disk <br>
+
+
 ### Evaluation Metrics ###
 Two evaluation metrics were used to tune hyperparameters:
 1) **Cost function J** - the unweighted arithmetic mean cost function for all c outcomes in a given candidate model
