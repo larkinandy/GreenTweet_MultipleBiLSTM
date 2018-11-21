@@ -18,7 +18,7 @@ Hyperparameter tuning methodology and results are described here.  This secction
 
 **Readme.md** - describes the tuning methodology, including hyperparameters to tune, range of hyperparameter values, evaluation metrics, and selection strategy <br>
 **HParramTuning.py** - Notebook with tf code to tune hyperparams and records results <br>
-**TuningGraphs.py** - Notebook for calculating summary statistics and creating multiplot graphs for each parameter to tune <br>
+[**TrainingPerfGraphs.py**](./TrainingPerfGraphs.ipynb) - Notebook for calculating summary statistics and creating multiplot graphs for each parameter to tune <br>
 **HParamX.eps** - Performance graphs, where X designates the corresponding performance parameter (e.g. HParamLearningRate.eps) <br>
 **HParamTuning.xls** - Excel tables with select tables from hyperparamter tuning <br>
 
