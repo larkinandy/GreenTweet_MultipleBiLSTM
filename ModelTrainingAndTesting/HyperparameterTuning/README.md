@@ -38,8 +38,9 @@ Symbol | Description | Tuning? | Test Value Set |
 h | # hidden nodes in pre-sigmoid layer | Yes | {7, 14, 16, 32 } |
 m | minibatch size | Yes | {64, 128, 256, 512} | 
 e | # epochs | Yes | {10000,25000, 50000, 100000, 120000, 250000} |
-λ | dropout rate*** | Yes | {0.3, 0.4, 0.5, 0.6, 0.7}* |
-g | activation function**** | Yes | {tanh, relu, leaky relu } |
+λ1 | dropout rate LSTM | Yes | {0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5}* |
+λ2 | dropout rate post-LSTM | Yes | {0.3, 0.4, 0.5, 0.6, 0.7 } |
+g | activation function*** | Yes | {tanh, relu, leaky relu } |
 c | # outcomes | Yes | {1,2,3,4,5,6,7} |
 β1 | momentum term of ADAM optimizer | No | 0.9 |
 β2 | RMSProp term of ADAM optimizer | No | 0.999 |
@@ -47,7 +48,7 @@ c | # outcomes | Yes | {1,2,3,4,5,6,7} |
 v | # biLSTMs | No | # words in longest Tweet + 1 |
 
 
-**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units.  *** Can differ between LSTM and post-LSTM layers. **** For hidden units only. Sigmoid is the activation function for all output units 
+**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units. *** For hidden units only. Sigmoid is the activation function for all output units 
 
 ### HParramTuning Pseudocode ###
 Workflow of the script HParramTuning.py is as follows:
