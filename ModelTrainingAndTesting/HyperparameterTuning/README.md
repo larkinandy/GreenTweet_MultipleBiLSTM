@@ -32,7 +32,7 @@ Model hyperparameters are shown below in Table 1.  For tunable hyperparameters, 
 
 Symbol | Description | Tuning? | Test Value Set | 
 ------------ | ------------- | ------------- | ------------- 
-α | learning rate | Yes | {1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.05, 0.1}* |
+α | learning rate | Yes | {1.1e-4, 1.25e-4 1e-4, 1e-4, 5e-5, 7.5e-5, 9e-5}* |
 τ |  # hidden post-LSTM layers** | Yes | {1,2,3} |
 ι | # hidden nodes per post-LSTM layers** | Yes | {7, 16, 32, 64, 128} | 
 h | # hidden nodes in pre-sigmoid layer | Yes | {7, 14, 16, 32 } |
