@@ -1,6 +1,11 @@
 # GreenTweet_MultivariateBiLSTM: Model Training and Testing : Hyperparameter Tuning
 text and metadata collection from twitter
 
+
+![](../images/LearningRateTuning.png)
+
+
+
 **Author:** [Andrew Larkin](http://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](http://health.oregonstate.edu/) <br>
 **Date Created:** October 15th, 2018 <br>
