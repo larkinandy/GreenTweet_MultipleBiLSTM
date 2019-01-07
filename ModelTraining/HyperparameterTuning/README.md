@@ -2,26 +2,21 @@
 text and metadata collection from twitter
 
 
-![](../images/LearningRateTuning.png)
-
+![](../images/LearningRateTuning.png)<br>
+**Figure X. Model performance while varying the learning rate parameter**
 
 
 **Author:** [Andrew Larkin](http://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](http://health.oregonstate.edu/) <br>
 **Date Created:** October 15th, 2018 <br>
 
-**TODO:**<br>
-[ ] insert link to manuscript once published
-
 ### Summary ###
 Hyperparameter tuning methodology and results are described here.  This secction if comprised of the following documents:
 
 **Readme.md** - describes the tuning methodology, including hyperparameters to tune, range of hyperparameter values, evaluation metrics, and selection strategy <br>
-**HParramTuning.py** - Notebook with tf code to tune hyperparams and records results <br>
-[**TrainingPerfGraphs.py**](./TrainingPerfGraphs.ipynb) - Notebook for calculating summary statistics and creating multiplot graphs for each parameter to tune <br>
-**HParamX.eps** - Performance graphs, where X designates the corresponding performance parameter (e.g. HParamLearningRate.eps) <br>
-**HParamTuning.xls** - Excel tables with select tables from hyperparamter tuning <br>
-
+[**HParramTuning.ipynb**](./HParamTuning.ipynb) - Notebook with tensorflow code to tune hyperparams and records results <br>
+[**TrainingPerfGraphs.ipynb**](./TrainingPerfGraphs.ipynb) - Notebook for calculating summary statistics and creating multiplot graphs for each parameter to tune <br>
+[HParamGraphs](./HParamGraphs) - Graphs comparing model performance under varying values of select hyperparameter <br>
 
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
@@ -32,23 +27,23 @@ Model hyperparameters are shown below in Table 1.  For tunable hyperparameters, 
 
 Symbol | Description | Tuning? | Test Value Set | 
 ------------ | ------------- | ------------- | ------------- 
-α | learning rate | Yes | {1.1e-4, 1.25e-4 1e-4, 1e-4, 5e-5, 7.5e-5, 9e-5}* |
-τ |  # hidden post-LSTM layers** | Yes | {1,2,3} |
-ι | # hidden nodes per post-LSTM layers** | Yes | {7, 16, 32, 64, 128} | 
-h | # hidden nodes in pre-sigmoid layer | Yes | {7, 14, 16, 32 } |
-m | minibatch size | Yes | {64, 128, 256, 512} | 
-e | # epochs | Yes | {10000,25000, 50000, 100000, 120000, 250000} |
-λ1 | dropout rate LSTM | Yes | {0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5}* |
-λ2 | dropout rate post-LSTM | Yes | {0.3, 0.4, 0.5, 0.6, 0.7 } |
-g | activation function*** | Yes | {tanh, relu, leaky relu } |
-c | # outcomes | Yes | {1,2,3,4,5,6,7} |
+α | learning rate | Yes | {1.1e-4, 1.25e-4 1e-4, 1e-4, 1e-5, 5e-5, 7.5e-5, **9e-5**}* |
+τ |  # hidden post-LSTM layers** | Yes | {1,**2**,3} |
+ι | # hidden nodes per post-LSTM layers** | Yes | {32, 64, 128, **256**} | 
+h | # hidden nodes in pre-sigmoid layer | Yes | {**14**, 28, 56 } |
+m | minibatch size | Yes | {**64**, 128, 256, 512} | 
+λ1 | dropout rate LSTM | Yes | {0, **0.1**, 0.25, 0.5, 0.75, 0.9}* |
+λ2 | dropout rate post-LSTM | Yes | {0.1, **0.5**, 0.9 } |
+g | activation function*** | Yes | {**tanh**, relu, leaky relu } |
+c | # outcomes | Yes | {5,6,**7**} |
+e | # epochs | No | {120000} |
 β1 | momentum term of ADAM optimizer | No | 0.9 |
 β2 | RMSProp term of ADAM optimizer | No | 0.999 |
 ε | small constant of ADAM optimizer | No |1e-8 |
 v | # biLSTMs | No | # words in longest Tweet + 1 |
 
 
-**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units. *** For hidden units only. Sigmoid is the activation function for all output units 
+**Table 1.** Hyperparameters in biLSTM model. * Parameters are part of a coarse-to-fine search strategy.  Only coarse search parameters are shown. ** Not including / not applicable to the bidirectional LSTM units. *** For hidden units only. Sigmoid is the activation function for all output units.  Selected parameters are highlighted in bold 
 
 ### HParramTuning Pseudocode ###
 Workflow of the script HParramTuning.py is as follows:
