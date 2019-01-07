@@ -1,11 +1,9 @@
-# GreenTweet_MultivariateBiLSTM: Model Training
+# GreenTweet_MultivariateBiLSTM: FixedPAaramTraining
 text and metadata collection from twitter
 
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
-**Date Created:** September 26th, 2018 <br>
-
-**TODO:** <br>
+**Date Created:** January 7, 2019 <br>
 
 **Summary**<br> This folder contains the scripts for training models once hyperparameters are fixed.  
 
@@ -22,8 +20,7 @@ Workflow for model training with fixed parameters is shown below.  The pipline i
 2) Define the tensorflow model structure and set hyperparameter values
 3) Train the tensorflow model using the train set, and save model with best performance on the dev set
 
-![](./ModelTrainingWorkFlow.png)
-
+![](./images/ModelTrainingWorkflow.png)
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
 
