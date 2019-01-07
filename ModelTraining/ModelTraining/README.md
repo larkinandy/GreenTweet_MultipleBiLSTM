@@ -11,7 +11,7 @@ text and metadata collection from twitter
 
 [**ModelTraining_FixedParams.ipynb**](./ModelTraining_FixedParams.ipynb) - notebook for training and saving models with the chosen hyperparamters.  <br>
 [**GT_Model**](./GT_Model) - metadata and weights of final model, saved as tensorflow objects.  **NOTE:** this folder won't be available until the corresponding manuscript is published <br>
-**Reamde.md** - this document, providing an overview of the Model Training process once hyperparameters are fixed
+**Readme.md** - this document, providing an overview of the Model Training process once hyperparameters are fixed
 
 ### Workflow ###
 
