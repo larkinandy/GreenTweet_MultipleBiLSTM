@@ -1,7 +1,7 @@
 # GreenTweet_MultivariateBiLSTM: Model Training
 text and metadata collection from twitter
 
-![](./images/networkStructure.png)
+![](./images/networkStructurev2.png)
 
 
 
