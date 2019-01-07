@@ -1,4 +1,4 @@
-# GreenTweet_MultivariateBiLSTM: FixedPAaramTraining
+# GreenTweet_MultivariateBiLSTM: FixedParamTraining
 text and metadata collection from twitter
 
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
@@ -10,7 +10,7 @@ text and metadata collection from twitter
 ### Files ###
 
 [**ModelTraining_FixedParams.ipynb**](./ModelTraining_FixedParams.ipynb) - notebook for training and saving models with the chosen hyperparamters.  <br>
-[**GT_Model**](./GT_Model) - metadata and weights of final model, saved as tensorflow objects.  **NOTE:** this folder won't be available until the corresponding manuscript is published <br>
+[**GT_Model**] - metadata and weights of final model, saved as tensorflow objects.  **NOTE:** this folder won't be available until the corresponding manuscript is published <br>
 **Reamde.md** - this document, providing an overview of the Model Training process once hyperparameters are fixed
 
 ### Workflow ###
@@ -20,7 +20,8 @@ Workflow for model training with fixed parameters is shown below.  The pipline i
 2) Define the tensorflow model structure and set hyperparameter values
 3) Train the tensorflow model using the train set, and save model with best performance on the dev set
 
-![](./images/ModelTrainingWorkflow.png)
+![](../images/ModelTrainingWorkflow.png)
+
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
 
