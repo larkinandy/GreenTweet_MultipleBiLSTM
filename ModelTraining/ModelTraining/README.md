@@ -22,7 +22,7 @@ Workflow for model training with fixed parameters is shown below.  The pipline i
 2) Define the tensorflow model structure and set hyperparameter values
 3) Train the tensorflow model using the train set, and save model with best performance on the dev set
 
-![](./ModelTrainingWorkFlow.png)
+![](../images/ModelTrainingWorkflow.png)
 
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
