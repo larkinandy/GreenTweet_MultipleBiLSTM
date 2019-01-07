@@ -5,8 +5,6 @@ text and metadata collection from twitter
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
 **Date Created:** September 26th, 2018 <br>
 
-**TODO:** <br>
-
 **Summary**<br> This folder contains the scripts for training models once hyperparameters are fixed.  
 
 ### Files ###
