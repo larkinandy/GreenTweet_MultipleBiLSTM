@@ -1,4 +1,4 @@
-# GreenTweet_MultivariateBiLSTM: Model Validation
+# GreenTweet_MultivariateBiLSTM: Model Evaluation
 text and metadata collection from twitter
 
 ![](./images/ModelPerformance_Precision_vs_Recall_Jan6_18-02.png)
@@ -36,5 +36,5 @@ Model performance was evaluated using 5 performance measures across four dataset
 [**ModelPerformance_Precision_vs_Recall_Jan6_18-02.png**](./images/ModelPerformance_Precision_vs_Recall_Jan6_18-02.png) - model performance plot diagram <br>
 [**ModelPerformanceTables_Jan6_18.xlsx**](./ModelPerformanceTables_Jan6_18.xlsx) - Performance statistics for all 24 dataset-model combinations <br>
 [**ModelPrecisionRecall_Jan6_18.csv**](./ModelPrecisionRecall_Jan6_18.csv) - Precision and Recall metrics, reformatted for creating  the Precision vs. Recall diagram using the ModelValidationGraph script <br>
-[**ModelValidationGraphs**](./ModelValidationGraphs.ipynb) - Jupyter notebook to calculate <br>
+[**ModelEvaluationGraphs**](./ModelEvaluationGraphs.ipynb) - Jupyter notebook to calculate <br>
 **Readme.md** - this file.  Overview of the Model Validation folder
