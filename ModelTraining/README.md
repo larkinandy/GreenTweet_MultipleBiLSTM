@@ -1,4 +1,4 @@
-# GreenTweet_MultivariateBiLSTM: Model Training and Testing
+# GreenTweet_MultivariateBiLSTM: Model Training
 text and metadata collection from twitter
 
 ![](./images/networkStructure.png)
@@ -8,10 +8,6 @@ text and metadata collection from twitter
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
 **Date Created:** September 26th, 2018 <br>
-
-**TODO:** <br>
-[ ] insert link to manuscript publication once published
-
 
 **Summary**<br> This section describes the model training and testing stategy, along with supplementary results not included in manuscdript publications.  The Model Training and Testing section contains the following documents/subsections:
 
