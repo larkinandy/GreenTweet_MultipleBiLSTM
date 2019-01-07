@@ -89,7 +89,7 @@ Workflow of the Training Performance Graph notebooks is shown below.  Workflow c
 2. For each candidate value, calculate summary statistics for train and dev sets<br>
 3. Graph summary statistics for train and dev sets and save to disk <br>
 
-
+![](./images/TrainingPerfGraphsWorkflow.png)
 
 ### External Links ###
 **https://en.wikipedia.org/wiki/Loss_function** <br>
