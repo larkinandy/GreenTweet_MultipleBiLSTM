@@ -13,5 +13,5 @@ The purpose of this project is to download text from twitter posts related to ur
 1) [**Documentation**](Documentation) - background information, project purpose, project description, and data sources. <br>
 2) [**Data Collection**](DataCollection) - scripts used to download data from Twitter and store in SQL database, along with results
 3) [**Data Preprocessing**](DataPreprocessing) - NLP scripts to screen, clean, and standardize tweet text and metadata, along with results
-4) [**Model Training and testing**](ModelTrainingAndTesting) - Tensorflow scripts for training and testing rnn models, along with results
-5) [**Model Validation**](ModelValidation) - Tensorflow scripts for model validation, along with results
+4) [**Model Training**](ModelTraining) - Tensorflow scripts for training models, including hyperparamter tuning
+5) [**Model Evaluation**](ModelEvaluation) - Tensorflow scripts for model evaluation, along with performance results
