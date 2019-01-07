@@ -1,0 +1,165 @@
+Outcome,Model,Dataset,Precision,Recall
+Aesthetic,Emoticon,Training,0.92,0.81
+Safety,Emoticon,NewYork,0.92,0.36
+Air,Emoticon,Training,0.89,0.76
+Greenspace,Emoticon,Training,0.88,0.92
+Aesthetic,Emoticon,Test,0.88,0.66
+Safety,Emoticon,Test,0.87,0.68
+Aesthetic,Emoticon,Dev,0.86,0.7
+Aesthetic,Emoticon,NewYork,0.86,0.64
+Greenspace,Emoticon,Dev,0.85,0.89
+Safety,Emoticon,Dev,0.84,0.63
+Greenspace,Emoticon,Test,0.84,0.89
+Safety,Emoticon,Training,0.83,0.74
+Social,Emoticon,NewYork,0.83,0.48
+Exercise,Emoticon,Training,0.82,0.79
+Stress,Emoticon,Training,0.81,0.43
+Greenspace,Emoticon,NewYork,0.81,0.77
+Social,Emoticon,Dev,0.8,0.61
+Social,Emoticon,Training,0.79,0.74
+Exercise,Emoticon,Dev,0.79,0.73
+Air,Emoticon,Dev,0.78,0.57
+Exercise,Emoticon,Test,0.76,0.69
+Social,Emoticon,Test,0.76,0.59
+Stress,Emoticon,Dev,0.73,0.48
+Exercise,Emoticon,NewYork,0.72,0.63
+Air,Emoticon,Test,0.6,0.55
+Stress,Emoticon,NewYork,0.56,0.34
+Air,Emoticon,NewYork,0.5,0.7
+Stress,Emoticon,Test,0.47,0.29
+Safety,No Hashtag,NewYork,0.92,0.34
+Safety,No Hashtag,Test,0.9,0.64
+Greenspace,No Hashtag,Training,0.89,0.92
+Air,No Hashtag,Dev,0.89,0.55
+Safety,No Hashtag,Dev,0.87,0.57
+Exercise,No Hashtag,Training,0.86,0.75
+Greenspace,No Hashtag,Dev,0.86,0.89
+Aesthetic,No Hashtag,Test,0.86,0.67
+Safety,No Hashtag,Training,0.85,0.65
+Aesthetic,No Hashtag,NewYork,0.85,0.61
+Aesthetic,No Hashtag,Training,0.84,0.76
+Greenspace,No Hashtag,Test,0.84,0.89
+Air,No Hashtag,Training,0.83,0.5
+Aesthetic,No Hashtag,Dev,0.83,0.65
+Social,No Hashtag,NewYork,0.82,0.46
+Social,No Hashtag,Training,0.81,0.7
+Greenspace,No Hashtag,NewYork,0.81,0.78
+Social,No Hashtag,Test,0.8,0.6
+Stress,No Hashtag,Training,0.79,0.4
+Exercise,No Hashtag,Dev,0.79,0.69
+Social,No Hashtag,Dev,0.78,0.58
+Exercise,No Hashtag,Test,0.78,0.68
+Exercise,No Hashtag,NewYork,0.71,0.56
+Stress,No Hashtag,Test,0.7,0.27
+Stress,No Hashtag,NewYork,0.65,0.32
+Stress,No Hashtag,Dev,0.64,0.3
+Air,No Hashtag,Test,0.64,0.47
+Air,No Hashtag,NewYork,0.5,0.6
+Air,No Location,Training,0.98,0.67
+Exercise,No Location,Training,0.94,0.86
+Safety,No Location,Test,0.91,0.62
+Safety,No Location,NewYork,0.91,0.37
+Greenspace,No Location,Training,0.9,0.91
+Air,No Location,Dev,0.9,0.64
+Safety,No Location,Training,0.87,0.67
+Aesthetic,No Location,Dev,0.86,0.7
+Greenspace,No Location,Dev,0.85,0.88
+Safety,No Location,Dev,0.85,0.55
+Aesthetic,No Location,Training,0.84,0.85
+Greenspace,No Location,Test,0.84,0.87
+Aesthetic,No Location,Test,0.84,0.65
+Exercise,No Location,Test,0.84,0.71
+Exercise,No Location,Dev,0.83,0.71
+Aesthetic,No Location,NewYork,0.83,0.73
+Social,No Location,Training,0.82,0.81
+Stress,No Location,Training,0.79,0.37
+Social,No Location,Dev,0.79,0.65
+Social,No Location,NewYork,0.79,0.53
+Greenspace,No Location,NewYork,0.77,0.78
+Exercise,No Location,NewYork,0.76,0.65
+Social,No Location,Test,0.74,0.64
+Air,No Location,Test,0.74,0.45
+Stress,No Location,NewYork,0.72,0.32
+Air,No Location,NewYork,0.7,0.7
+Stress,No Location,Dev,0.68,0.33
+Stress,No Location,Test,0.65,0.29
+Exercise,NoEmbed,Training,0.91,0.82
+Safety,NoEmbed,NewYork,0.91,0.37
+Stress,NoEmbed,NewYork,0.91,0.24
+Air,NoEmbed,Training,0.9,0.47
+Safety,NoEmbed,Test,0.9,0.61
+Aesthetic,NoEmbed,Training,0.89,0.71
+Safety,NoEmbed,Dev,0.88,0.55
+Greenspace,NoEmbed,Training,0.87,0.92
+Aesthetic,NoEmbed,Test,0.87,0.62
+Aesthetic,NoEmbed,Dev,0.86,0.62
+Aesthetic,NoEmbed,NewYork,0.85,0.65
+Safety,NoEmbed,Training,0.84,0.64
+Greenspace,NoEmbed,Dev,0.84,0.89
+Air,NoEmbed,Dev,0.84,0.61
+Stress,NoEmbed,Training,0.83,0.18
+Greenspace,NoEmbed,Test,0.83,0.89
+Exercise,NoEmbed,Dev,0.82,0.73
+Stress,NoEmbed,Test,0.82,0.27
+Stress,NoEmbed,Dev,0.8,0.17
+Social,NoEmbed,NewYork,0.8,0.53
+Social,NoEmbed,Training,0.79,0.76
+Exercise,NoEmbed,Test,0.79,0.72
+Exercise,NoEmbed,NewYork,0.77,0.62
+Social,NoEmbed,Dev,0.76,0.64
+Social,NoEmbed,Test,0.75,0.6
+Greenspace,NoEmbed,NewYork,0.74,0.81
+Air,NoEmbed,Test,0.64,0.47
+Air,NoEmbed,NewYork,0.58,0.7
+Air,zNoGreenspace,Training,0.93,0.6
+Stress,zNoGreenspace,Training,0.92,0.32
+Safety,zNoGreenspace,NewYork,0.92,0.33
+Exercise,zNoGreenspace,Training,0.89,0.82
+Safety,zNoGreenspace,Training,0.88,0.65
+Safety,zNoGreenspace,Dev,0.88,0.56
+Safety,zNoGreenspace,Test,0.88,0.59
+Aesthetic,zNoGreenspace,Training,0.87,0.85
+Social,zNoGreenspace,Training,0.86,0.76
+Aesthetic,zNoGreenspace,Dev,0.85,0.71
+Aesthetic,zNoGreenspace,Test,0.85,0.68
+Social,zNoGreenspace,NewYork,0.83,0.47
+Exercise,zNoGreenspace,Dev,0.82,0.72
+Stress,zNoGreenspace,Dev,0.8,0.26
+Aesthetic,zNoGreenspace,NewYork,0.8,0.65
+Social,zNoGreenspace,Dev,0.79,0.6
+Air,zNoGreenspace,Dev,0.79,0.5
+Stress,zNoGreenspace,NewYork,0.79,0.27
+Stress,zNoGreenspace,Test,0.78,0.27
+Exercise,zNoGreenspace,Test,0.77,0.7
+Exercise,zNoGreenspace,NewYork,0.77,0.66
+Social,zNoGreenspace,Test,0.73,0.58
+Air,zNoGreenspace,Test,0.68,0.45
+Air,zNoGreenspace,NewYork,0.54,0.7
+Air,Whole,Training,0.95,0.66
+Exercise,Whole,Training,0.92,0.82
+Air,Whole,Dev,0.92,0.52
+Aesthetic,Whole,NewYork,0.92,0.71
+Greenspace,Whole,Training,0.89,0.91
+Social,Whole,NewYork,0.89,0.5
+Stress,Whole,NewYork,0.89,0.39
+Safety,Whole,Test,0.88,0.76
+Aesthetic,Whole,Test,0.87,0.69
+Stress,Whole,Test,0.87,0.39
+Aesthetic,Whole,Training,0.86,0.8
+Stress,Whole,Training,0.86,0.33
+Greenspace,Whole,Dev,0.86,0.88
+Safety,Whole,NewYork,0.86,0.47
+Greenspace,Whole,Test,0.85,0.89
+Safety,Whole,Dev,0.83,0.72
+Social,Whole,Dev,0.83,0.6
+Social,Whole,Test,0.83,0.62
+Greenspace,Whole,NewYork,0.83,0.81
+Safety,Whole,Training,0.82,0.78
+Aesthetic,Whole,Dev,0.82,0.73
+Exercise,Whole,Test,0.82,0.73
+Social,Whole,Training,0.81,0.72
+Exercise,Whole,Dev,0.81,0.72
+Exercise,Whole,NewYork,0.8,0.62
+Stress,Whole,Dev,0.77,0.37
+Air,Whole,Test,0.77,0.45
+Air,Whole,NewYork,0.58,0.7
