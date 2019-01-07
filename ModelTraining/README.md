@@ -16,7 +16,8 @@ text and metadata collection from twitter
 **Summary**<br> This section describes the model training and testing stategy, along with supplementary results not included in manuscdript publications.  The Model Training and Testing section contains the following documents/subsections:
 
 [**Hyperparameter Tuning**](./HyperparameterTuning) - documents the hyperparamter tuning process and corresponding results <br>
-[**Model Validation and Generalizability**](./ModelValidationAndGeneralizability) - strategy for evaluating training final model, including evaluating generalizability to external datasets.  <br>
+[**Model Training.ipynb**](./ModelValidationAndGeneralizability) - notebook for training and saving models with the chosen hyperparamters.  <br>
+[**GT_Model**](./GT_Model) - metadata and weights of final model, saved as tensorflow objects.  **NOTE:** this folder won't be available until the corresponding manuscript is published <br>
 **Reamde.md** - this document, providing an overview of the Model Training and Testing section of the GreenTweet_MultivariateBiLSTM github repository
 
 **Note:** The material here is supplementary rather than superlative of published methods and results (insert link once published).  Please see the published materials for a comprehensive description of the model training and testing process.
