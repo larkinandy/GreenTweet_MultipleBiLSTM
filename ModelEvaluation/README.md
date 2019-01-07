@@ -33,8 +33,21 @@ Model performance was evaluated using 5 performance measures across four dataset
 
 ### Files ### 
 
-[**ModelPerformance_Precision_vs_Recall_Jan6_18-02.png**](./images/ModelPerformance_Precision_vs_Recall_Jan6_18-02.png) - model performance plot diagram <br>
 [**ModelPerformanceTables_Jan6_18.xlsx**](./ModelPerformanceTables_Jan6_18.xlsx) - Performance statistics for all 24 dataset-model combinations <br>
 [**ModelPrecisionRecall_Jan6_18.csv**](./ModelPrecisionRecall_Jan6_18.csv) - Precision and Recall metrics, reformatted for creating  the Precision vs. Recall diagram using the ModelValidationGraph script <br>
-[**ModelEvaluationGraphs**](./ModelEvaluationGraphs.ipynb) - Jupyter notebook to calculate <br>
+[**ModelEvaluationGraphs**](./ModelEvaluationGraphs.ipynb) - Jupyter notebook to load multiple trained tensorflow models on multiple datasets, and claculate perofrmance metrics<br>
 **Readme.md** - this file.  Overview of the Model Validation folder
+
+### Workflow ###
+
+Model evaluation workflow is partitioned into two steps: 
+
+1) **Evaluate model predictions with multiple datasets** <br>
+Workflow  for evaluating model predictions is shown below.  The workflow starts by loading datasets into memory (functions highlighted in red).  Next, the tensorflow model is loaded into memory, and model predictions are generated for test datasets, in batches if the dataset is too large to process all at once (functions highlighted inblue). Finally, model performance statistics including F1 Score, MCC, and confusions matrices are calcualted, and text of misclassified records are written to secondary storage (functions highlighted in green).  This process is repeated for multiple models and multiple datasets <br>
+
+![](./images/ModelEvalWorkflow_pt1.png)
+
+2) **Graph precision and recall for all outcomes** <br>
+Workflow for creating  precision vs. recall graphs are shown below.  The workflow starts by loading precision and recall values from storage into memory (functions highlighted in red).  Next, matplotlib creates subset plots for each outcome, including by setting custom properties for axes and reference labels in each subplot. The final graph has unique colors for each input dataset, and unique markers for each tested model <br>
+
+![](./images/ModelEvalWorkflow_pt2.png)
