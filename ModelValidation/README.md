@@ -33,9 +33,8 @@ Model performance was evaluated using 5 performance measures across four dataset
 
 ### Files ### 
 
-**TODO** - add hyperlink to model performance table once uploaded <br>
-
 [**ModelPerformance_Precision_vs_Recall_Jan6_18-02.png**](./images/ModelPerformance_Precision_vs_Recall_Jan6_18-02.png) - model performance plot diagram <br>
+[**ModelPerformanceTables_Jan6_18.xlsx**](./ModelPerformanceTables_Jan6_18.xlsx) - Performance statistics for all 24 dataset-model combinations <br>
+[**ModelPrecisionRecall_Jan6_18.csv**](./ModelPrecisionRecall_Jan6_18.csv) - Precision and Recall metrics, reformatted for creating  the Precision vs. Recall diagram using the ModelValidationGraph script <br>
 [**ModelValidationGraphs**](./ModelValidationGraphs.ipynb) - Jupyter notebook to calculate <br>
-[**ModelPerformanceTables_Jan6_18.xls**] - Performance statistics for all 24 dataset-model combinations <br>
 **Readme.md** - this file.  Overview of the Model Validation folder
