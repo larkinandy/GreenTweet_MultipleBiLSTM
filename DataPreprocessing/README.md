@@ -43,6 +43,7 @@ Data Preprocessing for the bi-LSTM requires several NLP modifications that weren
 - descriptive statistics need to be run to compare train, dev, and test set compatibility <br>
 
 The Data Preprocessing section contains the following documents:
+- [**Datasets**](./datasets) - Dataset products after preprocessing text. <br>
 - [**DatasetDescriptiveStats.xlsx**](./DatasetDescriptiveStats.xlsx) - Table with descriptive statistics for train, test, and dev datasets
 - [**PreprocessTweets.ipynb**](./PreprocessTweets.ipynb) - Jupyter notebook containing python script for performing all of the operations described above <br>
 - [**AddRegionalContextIndicator.ipynb**](./AddRegionalContextIndicator.ipynb) - Jupyter notebook for adding the regional contet flag - indicates whether a word within the tweet text corresponds to a keyphrase that has unique context within the originating region <br>
