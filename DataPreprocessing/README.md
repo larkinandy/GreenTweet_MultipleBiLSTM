@@ -56,15 +56,9 @@ The Data Preprocessing section contains the following documents:
 
 Workflow for the PreprocessTweets is shown below in Figure 1.  Workflow for the AddRegionalContextIndicator notebook is shown below in Figure 2. 
 
-![](../images/preProcessingWorkflow.png)
+![](./images/preProcessingWorkflow.png) <br>
+
 **Figure 1.  Workflow for the PreprocessTweets notebook** <br>
 
-![](../images/AddLocationWorkflow.png)
+![](./images/AddLocationWorkflow.png) <br>
 **Figure 2.  Workflow for the AddREgionaContextIndicator notebook** <br>
-
-**Figure 
-
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Figure 1.  Workflow Diagram for Data Preprocessing.** <br>
