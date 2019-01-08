@@ -4,7 +4,7 @@ text and metadata collection from twitter
 
 
 
- **Dataset** | Train | Dev | NYC |All | Train | Dev | Test | NYC 
+ **Dataset** | Train | Test | Dev |NYC | Train | Test | Dev | NYC 
  ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------ | ------------- | ------------ 
 **Nature Label** |1|1|1|1|0|0|0|0|
 **Sample Size** | 36651 | 2835 | 2937 | 2397 | 26422 | 2165 | 2063 | 2460 
