@@ -52,8 +52,19 @@ The Data Preprocessing section contains the following documents:
 **External Links** <br>
 **Stanford Word Vectors** - https://nlp.stanford.edu/projects/glove/ <br>
 
+### Workflow ###
+
+Workflow for the PreprocessTweets is shown below in Figure 1.  Workflow for the AddRegionalContextIndicator notebook is shown below in Figure 2. 
+
+![](../images/preProcessingWorkflow.png)
+**Figure 1.  Workflow for the PreprocessTweets notebook** <br>
+
+![](../images/AddLocationWorkflow.png)
+**Figure 2.  Workflow for the AddREgionaContextIndicator notebook** <br>
+
+**Figure 
 
 
-![alt text](https://raw.githubusercontent.com/larkinandy/GreenTweet_MultivariateBiLSTM/master/DataPreprocessing/images/preProcessingWorkflow.png)
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Figure 1.  Workflow Diagram for Data Preprocessing.** <br>
