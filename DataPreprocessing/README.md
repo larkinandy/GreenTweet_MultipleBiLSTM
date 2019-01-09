@@ -1,7 +1,7 @@
 # GreenTweet_MultivariateBiLSTM: Data Preprocessing
 text and metadata collection from twitter
 
-
+![](./images/TweetExamples.png)
 
 
  **Dataset** | Train | Test | Dev |NYC | Train | Test | Dev | NYC 
