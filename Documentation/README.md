@@ -34,7 +34,6 @@ We [previously downloaded](https://github.com/larkinandy/Portland_UrbanNature_Tw
 
 **TODO: 
 
-[  ] - add references to a good urban nature and health review paper <br>
 [  ] - add reference to Portland urban nature paper once published
 
 1) Tweepy - http://www.tweepy.org/
