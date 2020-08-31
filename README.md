@@ -1,8 +1,6 @@
 # GreenTweet_MultivariateBiLSTM
 twitter text preprocessing and bidirectional lstm for multivariate categorization
 
-## Public visibility for this project is limited until manuscript has been accepted for publication ## 
-
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
 **Affiliation:** [Oregon State University, College of Public Health and Human Sciences](https://health.oregonstate.edu/) <br>
 **Date Created:** September 23rd, 2018 <br>
@@ -15,3 +13,6 @@ The purpose of this project is to download text from twitter posts related to ur
 3) [**Data Preprocessing**](DataPreprocessing) - NLP scripts to screen, clean, and standardize tweet text and metadata, along with results
 4) [**Model Training**](ModelTraining) - Tensorflow scripts for training models, including hyperparamter tuning
 5) [**Model Evaluation**](ModelEvaluation) - Tensorflow scripts for model evaluation, along with performance results
+
+**Referenes** <br>
+1) Andrew Larkin, Perry Hystad, Integrating Geospatial Data and Social Media in Bidirectional Long-Short Term Memory Models to Capture Human Nature Interactions, The Computer Journal, , bxaa094, https://doi.org/10.1093/comjnl/bxaa094
